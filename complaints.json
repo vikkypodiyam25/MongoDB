@@ -8,8 +8,7 @@
     "description": "No internet connection in Lab 2.",
     "priority": "High",
     "status": "Pending",
-    "location": "Lab 2",
-    "createdAt": "2026-09-28T09:20:00.000Z"
+    "location": "Lab 2"
   },
   {
     "complaintId": "CC-2002",
@@ -20,8 +19,7 @@
     "description": "Laptop turns off when charger is removed.",
     "priority": "Critical",
     "status": "In Progress",
-    "location": "Lab 1",
-    "createdAt": "2026-09-28T10:10:00.000Z"
+    "location": "Lab 1"
   },
   {
     "complaintId": "CC-2003",
@@ -32,9 +30,9 @@
     "description": "Projector is on but there is no display.",
     "priority": "Medium",
     "status": "Resolved",
-    "location": "Room 204",
-    "createdAt": "2026-09-27T12:30:00.000Z"
+    "location": "Room 204"
   },
+
   {
     "complaintId": "CC-2004",
     "studentName": "Neha",
@@ -44,8 +42,7 @@
     "description": "Socket near the last row is loose.",
     "priority": "High",
     "status": "Pending",
-    "location": "Study Hall",
-    "createdAt": "2026-09-26T15:20:00.000Z"
+    "location": "Study Hall"
   },
   {
     "complaintId": "CC-2005",
@@ -56,8 +53,7 @@
     "description": "Password reset email is not received.",
     "priority": "Medium",
     "status": "Resolved",
-    "location": "Online",
-    "createdAt": "2026-09-26T16:45:00.000Z"
+    "location": "Online"
   },
   {
     "complaintId": "CC-2006",
@@ -68,8 +64,7 @@
     "description": "The dispenser near the library is empty.",
     "priority": "Low",
     "status": "Pending",
-    "location": "Library",
-    "createdAt": "2026-09-25T09:00:00.000Z"
+    "location": "Library"
   },
   {
     "complaintId": "CC-2007",
@@ -80,8 +75,7 @@
     "description": "Internet becomes very slow after lunch.",
     "priority": "High",
     "status": "pending",
-    "location": "Room 105",
-    "createdAt": "2026-09-24T13:15:00.000Z"
+    "location": "Room 105"
   },
   {
     "complaintId": "CC-2008",
@@ -91,15 +85,13 @@
     "title": "Keyboard keys missing",
     "description": "Two keyboard keys are not responding.",
     "priority": "medium",
-    "status": "Pending",
-    "location": "Lab 3",
-    "createdAt": "2026-09-24T14:20:00.000Z"
+    "status": "Pending"
   },
   {
     "complaintId": "CC-2009",
     "studentName": "Vivek",
     "studentId": "ST-209",
-    "category": "Classroom",
+    "category": "Internet ",
     "title": "Fan not working",
     "description": "Ceiling fan is not rotating.",
     "priority": "High",
@@ -116,8 +108,7 @@
     "description": "Power fluctuates during evening study time.",
     "priority": "Critical",
     "status": "Resolved",
-    "location": "Hostel Block A",
-    "createdAt": "2026-09-22T18:10:00.000Z"
+    "location": "helll    A"
   },
   {
     "complaintId": "CC-2011",
@@ -128,8 +119,8 @@
     "description": "Connection drops every few minutes.",
     "priority": "High",
     "status": "In Progress",
-    "location": "Lab 4",
-    "createdAt": "2026-09-21T10:20:00.000Z"
+    "location": "Lab 4"
+
   },
   {
     "complaintId": "CC-2012",
@@ -140,7 +131,6 @@
     "description": "Light is not working near the main corridor.",
     "priority": "Medium",
     "status": "Resolved",
-    "location": "Main Block",
-    "createdAt": "2026-09-20T12:15:00.000Z"
+    "location": "Main Block"
   }
 ]

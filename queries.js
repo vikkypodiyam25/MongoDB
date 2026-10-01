@@ -37,9 +37,8 @@ db.complaints.findOne({ studentId: "ST-204" })
 // 11. Find all high-priority pending complaints
 db.complaints.find({
     priority: "High",
-    status: "Pending"
+    status: "pending"
 })
-
 // 12. Find complaints created after a date
 db.complaints.find({
     createdAt: {
