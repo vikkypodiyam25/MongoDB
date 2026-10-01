@@ -1,0 +1,29 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "queries.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikkypodiyam25/MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vikkypodiyam25/MongoDB/issues"
+  },
+  "homepage": "https://github.com/vikkypodiyam25/MongoDB#readme",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "nodemon": "^3.1.14"
+  }
+}

@@ -2,13 +2,11 @@
 // Database: campusconnect
 // Collection: complaints
 
-use campusconnect
+//use campusconnect
 
 // 1. Show all complaints
 db.complaints.find()
 
-// 2. Pretty output
-db.complaints.find().pretty()
 
 // 3. Count total complaints
 db.complaints.countDocuments()
@@ -43,7 +41,7 @@ db.complaints.find({
 // 12. Find complaints created after a date
 db.complaints.find({
     createdAt: {
-        $gte: "2026-09-24T00:00:00.000Z"
+        $gte: new Date("2026-09-24T00:00:00.000Z")
     }
 })
 
