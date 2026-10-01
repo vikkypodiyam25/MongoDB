@@ -2,7 +2,7 @@
 // Database: campusconnect
 // Collection: complaints
 
-use campusconnect
+// use campusconnect
 
 // 1. Show all complaints
 db.complaints.find()
@@ -49,6 +49,7 @@ db.complaints.find({
 
 // 13. Sort newest first
 db.complaints.find().sort({ createdAt: -1 })
+``
 
 // 14. Sort critical first using a simple filter
 db.complaints.find({ priority: "Critical" }).sort({ createdAt: -1 })
