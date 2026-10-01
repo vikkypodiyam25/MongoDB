@@ -1,0 +1,37 @@
+EVIDENCE CARD 01
+Database record CC-2007:
+status = "pending"
+
+Requirement:
+status must be exactly "Pending", "In Progress" or "Resolved".
+REAL / FAKE / UNKNOWN
+
+EVIDENCE CARD 02
+Database record CC-2008:
+priority = "medium"
+
+Requirement:
+priority must be Low, Medium, High or Critical.
+REAL / FAKE / UNKNOWN
+
+EVIDENCE CARD 03
+API response:
+status = "Pending"
+
+Database:
+status = "pending"
+
+Question:
+Could this inconsistency break an exact status filter?
+REAL / FAKE / UNKNOWN
+
+EVIDENCE CARD 04
+Developer note:
+"MongoDB does not care about exact casing in string values."
+REAL / FAKE / UNKNOWN
+
+EVIDENCE CARD 05
+Requirement:
+Every complaint must have complaintId, studentName, category, title,
+description, priority, status, location and createdAt.
+REAL / FAKE / UNKNOWN
