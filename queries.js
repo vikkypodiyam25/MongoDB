@@ -7,7 +7,6 @@
 // 1. Show all complaints
 db.complaints.find()
 
-
 // 3. Count total complaints
 db.complaints.countDocuments()
 

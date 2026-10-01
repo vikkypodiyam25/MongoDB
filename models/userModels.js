@@ -35,13 +35,13 @@ const complaintSchema = new mongoose.Schema(
         priority: {
             type: String,
             required: [true, "Priority is required"],
-            enum: ["Low", "Medium", "High", "Critical", "medium"]
+            enum: ["Low", "Medium", "High", "Critical"]
         },
         status: {
             type: String,
             required: [true, "Status is required"],
             default: "Pending",
-            enum: ["Pending", "In Progress", "Resolved", "pending"]
+            enum: ["Pending", "In Progress", "Resolved"]
         },
         location: {
             type: String,
@@ -58,6 +58,7 @@ const complaintSchema = new mongoose.Schema(
     }
 );
 
-const complaints = mongoose.model("Complaint", complaintSchema);
+const Complaint = mongoose.model("Complaint", complaintSchema, "complaints");
 
-export default complaints;
+
+export default Complaint;
