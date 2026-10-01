@@ -2,11 +2,10 @@
 // Database: campusconnect
 // Collection: complaints
 
-<<<<<<< HEAD
+
 // use campusconnect
-=======
 //use campusconnect
->>>>>>> 6b8885aae632f1696248b975b66cbe14daca4617
+
 
 // 1. Show all complaints
 db.complaints.find()
