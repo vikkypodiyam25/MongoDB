@@ -70,7 +70,7 @@ db.complaints.find({
 // 17. Detect lowercase priority problem
 db.complaints.find({
     priority: {
-        $nin: ["Low", "Medium", "High", "Critical"]
+        $nin: ["Low", "Medium", ]
     }
 })
 
@@ -96,8 +96,7 @@ db.complaints.updateOne(
 
 // 20. Fix the intentionally incorrect priority
 db.complaints.updateOne(
-    { complaintId: "CC-2008" },
-    { $set: { priority: "Medium" } }
+    { complaintId: "CC-2008" }
 )
 
 // 21. Verify fixes
