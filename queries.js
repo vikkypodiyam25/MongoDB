@@ -2,13 +2,14 @@
 // Database: campusconnect
 // Collection: complaints
 
+<<<<<<< HEAD
 // use campusconnect
+=======
+//use campusconnect
+>>>>>>> 6b8885aae632f1696248b975b66cbe14daca4617
 
 // 1. Show all complaints
 db.complaints.find()
-
-// 2. Pretty output
-db.complaints.find().pretty()
 
 // 3. Count total complaints
 db.complaints.countDocuments()
@@ -37,13 +38,12 @@ db.complaints.findOne({ studentId: "ST-204" })
 // 11. Find all high-priority pending complaints
 db.complaints.find({
     priority: "High",
-    status: "Pending"
+    status: "pending"
 })
-
 // 12. Find complaints created after a date
 db.complaints.find({
     createdAt: {
-        $gte: "2026-09-24T00:00:00.000Z"
+        $gte: new Date("2026-09-24T00:00:00.000Z")
     }
 })
 
@@ -72,7 +72,7 @@ db.complaints.find({
 // 17. Detect lowercase priority problem
 db.complaints.find({
     priority: {
-        $nin: ["Low", "Medium", "High", "Critical"]
+        $nin: ["Low", "Medium", ]
     }
 })
 
@@ -98,8 +98,7 @@ db.complaints.updateOne(
 
 // 20. Fix the intentionally incorrect priority
 db.complaints.updateOne(
-    { complaintId: "CC-2008" },
-    { $set: { priority: "Medium" } }
+    { complaintId: "CC-2008" }
 )
 
 // 21. Verify fixes

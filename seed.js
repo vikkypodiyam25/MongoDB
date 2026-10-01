@@ -10,10 +10,10 @@
 import { MongoClient } from "mongodb";
 import fs from "fs";
 
-const uri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017";
+const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri);
 
-async function seed() {
+async function Seed() {
     try {
         await client.connect();
 
@@ -28,9 +28,6 @@ async function seed() {
 
         console.log(`${result.insertedCount} complaints inserted.`);
         console.log("Database:", db.databaseName);
-        console.log("Collection:", collection.collectionName);
-    } catch (error) {
-        console.error("Seed error:", error.message);
     } finally {
         await client.close();
     }

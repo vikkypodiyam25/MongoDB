@@ -1,12 +1,12 @@
-EVIDENCE CARD 01
+EVIDENCE CARD 01 ==> FAKE
 Database record CC-2007:
-status = "pending"
+status = "pending" || ==> aise hona chaiye status me "Pending"
 
 Requirement:
 status must be exactly "Pending", "In Progress" or "Resolved".
 REAL / FAKE / UNKNOWN
 
-EVIDENCE CARD 02
+EVIDENCE CARD 02  FAKE
 Database record CC-2008:
 priority = "medium"
 
